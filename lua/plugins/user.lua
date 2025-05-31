@@ -38,14 +38,20 @@ return {
       },
     },
   },
-
-  -- (sh) Trying to fix the cpp icons:
   {
     "echasnovski/mini.icons",
     optional = true,
     opts = {
+      default = {
+        directory = { glyph = "" },
+      },
+      directory = {
+        tests = { glyph = "" },
+      },
       filetype = {
         cpp = { glyph = "" },
+        txt = { glyph = "" },
+        cmake = { glyph = "" },
       },
       extension = {
         hpp = { glyph = "" },
