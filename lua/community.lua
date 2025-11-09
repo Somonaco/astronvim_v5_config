@@ -8,6 +8,9 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.git.blame-nvim" },
+  { import = "astrocommunity.git.gitgraph-nvim" },
+  { import = "astrocommunity.git.neogit" },
   -- How to configure?:
   -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.icon.mini-icons" },
