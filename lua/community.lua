@@ -8,8 +8,10 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   { import = "astrocommunity.pack.cpp" },
+  -- How to configure?:
   -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.icon.mini-icons" },
   -- { import = "astrocommunity.editing-support.hypersonic-nvim" },
   { import = "astrocommunity.editing-support.chatgpt-nvim" },
+  { import = "astrocommunity.scrolling.satellite-nvim" },
 }

@@ -15,8 +15,19 @@ return {
   { "p00f/clangd_extensions.nvim" },
   --  { 'echasnovski/mini.nvim',      version = '*' },
   -- { "nvim-tree/nvim-web-devicons" },
-  { "ntpeters/vim-better-whitespace" },
+  -- Makes problems with 's' shortkey:
+  -- { "ntpeters/vim-better-whitespace" },
+  -- { "cappyzawa/trim.nvim" },
   { "CoatiSoftware/vim-sourcetrail" },
+
+  --{
+  --  "Exafunction/windsurf.nvim",
+  --  dependencies = {
+  --    "nvim-lua/plenary.nvim",
+  --    "hrsh7th/nvim-cmp",
+  --  },
+  --  config = function() require("codeium").setup {} end,
+  --},
 
   -- == Examples of Overriding Plugins ==
 
@@ -28,12 +39,21 @@ return {
         preset = {
           header = table.concat({
             "",
-            "███    ██ ██    ██ ██ ███    ███",
-            "████   ██ ██    ██ ██ ████  ████",
-            "██ ██  ██ ██    ██ ██ ██ ████ ██",
-            "██  ██ ██  ██  ██  ██ ██  ██  ██",
-            "██   ████   ████   ██ ██      ██",
+            "███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗",
+            "████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║",
+            "██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║",
+            "██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║",
+            "██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║",
+            "╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝",
           }, "\n"),
+
+          --            "",
+          --            "███    ██ ██    ██ ██ ███    ███",
+          --            "████   ██ ██    ██ ██ ████  ████",
+          --            "██ ██  ██ ██    ██ ██ ██ ████ ██",
+          --            "██  ██ ██  ██  ██  ██ ██  ██  ██",
+          --            "██   ████   ████   ██ ██      ██",
+          --          }, "\n"),
         },
       },
     },
