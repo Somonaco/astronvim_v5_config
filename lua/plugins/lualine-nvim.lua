@@ -13,7 +13,9 @@ return {
   {
     "nvim-lualine/lualine.nvim",
     opts = {
-      theme = "codedark",
+      options = {
+        theme = "gruvbox_dark",
+      },
       sections = {
         lualine_x = { cpu_load, "encoding", "fileformat", "filetype" },
       },
